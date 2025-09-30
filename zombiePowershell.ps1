@@ -1,1 +1,0 @@
-ping /n 10 google.com
