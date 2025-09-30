@@ -1,0 +1,1 @@
+This is a demonstration of powershell based attacks for a presenttaion I am doing. The site promises free video games but instead downloads a ps1 file. The file, when executed, preforms a 'dos attack' which is just pinging google.com 10 times.
